@@ -1,0 +1,23 @@
+.loading{
+	position: absolute;
+	left: 800px;
+	top: 0px;
+}
+.loading div{
+	background: #34a4db;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	animation: loading_anim 1s ease 0s infinite;
+	float: left;
+}
+@keyframes loading_anim{
+	0%{
+		width: 10px;
+		height: 10px;
+	}
+	100%{
+		width: 0px;
+		height: 0px;
+	}
+}
